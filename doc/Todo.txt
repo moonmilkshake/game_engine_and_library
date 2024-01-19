@@ -1,0 +1,17 @@
+TODO: Centralize handling of game to one class
+TODO: Add exception-handling and null-checks
+TODO: Clean up
+
+Optional
+TODO: Pixel collision detection
+TODO: Set method for fps
+TODO: Fix zigg zagg movement-speed
+TODO: Buttons by overloading ()
+
+
+BEHINDERS = 0
+BACKGROUND = 1
+BETWEENERS = 2
+MOVABLES = 3
+ONTOP = 4
+GAME UI = 5
