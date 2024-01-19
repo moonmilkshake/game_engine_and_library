@@ -46,3 +46,6 @@ Usage
 
 License
 - This project is licensed - see the LICENSE.md file for details.
+
+Contact
+alexandersvarling@gmail.com
