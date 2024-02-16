@@ -21,7 +21,7 @@ class StartButton : public Button
 {
 public:
     StartButton(int weight, GameEngine *engine, std::string upAssetPath, std::string downAssetPath)
-        : Button(450, 200, 150, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
+        : Button(600, 200, 150, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
 
     void perform(Button *source) override
     {
@@ -39,7 +39,7 @@ class StopButton : public Button
 {
 public:
     StopButton(int weight, GameEngine *engine, std::string upAssetPath, std::string downAssetPath)
-        : Button(450, 300, 150, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
+        : Button(600, 300, 150, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
 
     void perform(Button *source) override
     {
@@ -57,7 +57,7 @@ class NewGameButton : public Button
 {
 public:
     NewGameButton(int weight, GameEngine *engine, std::string upAssetPath, std::string downAssetPath)
-        : Button(425, 300, 250, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
+        : Button(600, 300, 250, 70, weight, upAssetPath, downAssetPath), gameEngine(engine) {}
 
     void perform(Button *source) override
     {
